@@ -1,8 +1,7 @@
-import { createCartItem } from "../components/cartItem.js";
 import { getCart } from "../utils/storage.js";
 
 export function loadCartPage() {
-  const app = document.getElementById("app");
+  const app = document.getElementById("cart");
 
   app.innerHTML = `<h2>Your Shopping Cart</h2>`;
 
@@ -14,7 +13,7 @@ export function loadCartPage() {
   }
 
   const cartContainer = document.createElement("div");
-  cartContainer.classList.add("  ");
+  cartContainer.classList.add("");
 
   cart.forEach((item) => {
     const cartItemElement = createCartItem(item);
@@ -23,7 +22,6 @@ export function loadCartPage() {
 
   app.appendChild(cartContainer);
 
-  
   const totalPrice = cart.reduce(
     (total, item) => total + item.price * item.quantity,
     0
