@@ -76,3 +76,66 @@
     }
   }
 }
+
+.restore_pass{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 30px;
+
+    h1 {
+        font-family: Balsamiq Sans;
+        font-size: 48px;
+        font-weight: 400;
+        color: var(--green_text);
+      }
+    
+
+
+
+
+    .text_input {
+        width: 469px;
+        height: 64px;
+        padding-left: 20px;
+        font-size: 35px;
+        font-family: Montserrat;
+        font-weight: 400;
+        border-radius: 12px;
+      }
+  
+      .registr {
+        width: 244px;
+        height: 48px;
+        gap: 0px;
+        border-radius: 12px;
+        background-color: #7fc9f0;
+        border: none;
+  
+        a {
+          font-size: 18px;
+          color: white;
+          font-weight: 500;
+          text-decoration: none;
+        }
+  
+        &:hover {
+          background-color: #223540;
+        }
+      }
+
+.thank_you{
+    display: none;
+    
+}
+
+
+
+.restoring{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    display: none;
+}
+
+}
