@@ -145,6 +145,7 @@
   }
 }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 .home {
   width: 90%;
   max-width: 1400px;
@@ -318,6 +319,8 @@ header .bottom-header .header-map .bx {
 header .bottom-header .header-map p {
   color: var(--text-color-2-blue);
 =======
+=======
+>>>>>>> Stashed changes
 .newitems {
   max-width: 1440px;
   width: 100%;
@@ -377,5 +380,8 @@ header .bottom-header .header-map p {
   font-family: Montserrat;
   font-size: 18px;
   font-weight: 500;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 }/*# sourceMappingURL=main.css.map */
