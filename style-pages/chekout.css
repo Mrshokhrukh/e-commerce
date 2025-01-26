@@ -39,9 +39,10 @@
   font-size: var(--header-text-size-1);
   font-weight: 600;
   color: var(--text-color-1-sea);
+  margin-top: 10px;
 }
 
-.card-top {
+.span-top {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -50,4 +51,19 @@
 .border {
   width: 100%;
   border: 1px solid #223540;
+}
+
+.card_p {
+  font-family: "Montserrat";
+  font-size: var(--header-text-size-1);
+  color: var(--text-color-1-sea);
+  font-weight: var(--font-weight);
+  width: 40%;
+  margin-bottom: 10px;
+}
+
+.elements {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }/*# sourceMappingURL=chekout.css.map */
