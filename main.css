@@ -134,6 +134,13 @@ header .top-header .top-header-child .top-header-child-l .header-basket .bx {
   color: var(--text-color-2-blue);
 }
 header .top-header .top-header-child .top-header-child-l .header-basket span {
+  top: 0;
+  left: 30%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: var(--text-color-3-withe);
+  background-color: var(--text-color-1-sea);
   position: absolute;
 }
 header .top-header .top-header-child .top-header-child-l .header-basket p {
@@ -143,6 +150,26 @@ header .top-header .top-header-child .top-header-child-l .header-basket p {
 header .bottom-header {
   width: 100%;
   padding: 10px 0;
+}
+header .bottom-header .bottom-text-header {
+  font-size: 18px;
+  color: var(--text-color-1-sea);
+}
+header .bottom-header .header-a ul {
+  gap: 20px;
+}
+header .bottom-header .header-a ul a {
+  text-decoration: none;
+  color: var(--text-color-2-blue);
+  font-size: 18px;
+}
+header .bottom-header .header-map .bx {
+  font-size: 30px;
+  color: var(--text-color-1-sea);
+  cursor: pointer;
+}
+header .bottom-header .header-map p {
+  color: var(--text-color-2-blue);
 }
 
 body {

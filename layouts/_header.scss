@@ -137,6 +137,13 @@ header {
                         color: var(--text-color-2-blue);
                     }
                     span{
+                        top: 0;
+                        left: 30%;
+                        width: 20px;
+                        height: 20px;
+                        border-radius: 50%;
+                        color: var(--text-color-3-withe);
+                        background-color: var(--text-color-1-sea);
                         position: absolute;
                     }
                     p{
@@ -151,5 +158,33 @@ header {
     .bottom-header{
         width: 100%;
         padding: 10px 0;
+
+        .bottom-text-header{
+            font-size: 18px;
+            color: var(--text-color-1-sea);
+        }
+
+        .header-a{
+            ul{
+                gap: 20px;
+                a{
+                    text-decoration: none;
+                    color: var(--text-color-2-blue);
+                    font-size: 18px;
+                }
+            }
+        }
+
+        .header-map{
+            .bx{
+                font-size: 30px;
+                color: var(--text-color-1-sea);
+                cursor: pointer;
+            }
+            p{
+                color: var(--text-color-2-blue);
+            }
+        }
+
     }
 }
