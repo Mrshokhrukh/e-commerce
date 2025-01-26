@@ -2,6 +2,12 @@
   max-width: 1440px;
   width: 100%;
   margin: auto;
+  .title-cats{
+    font-family: Balsamiq Sans;
+    color: var(--green_text);
+    font-size: 80px;
+    text-align: center;
+  }
 }
 .cards-cats {
   display: flex;
@@ -19,6 +25,7 @@
     align-items: center;
     gap: 42px;
     transition: 0.5s;
+    overflow: hidden;
    &:hover{
     transform: scale(1.05);
    }
@@ -50,4 +57,12 @@
   .container-cats:nth-child(3){
     background-color: #E5F4FC;
   }
+}
+@media (max-width:1440px) {
+   .cards-cats{
+    flex-wrap: wrap;
+column-gap: 20px;
+    row-gap: 30px;
+    justify-content: center;
+   }
 }
