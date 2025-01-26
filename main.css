@@ -191,11 +191,11 @@
     font-size: 70px;
   }
 }
-.newitems .newitems-cards {
+.newitems .products-container {
   display: flex;
   justify-content: space-between;
 }
-.newitems .newitems-cards .container-newitems {
+.newitems .products-container .product-card {
   max-width: 346px;
   width: 100%;
   height: 510px;
@@ -207,16 +207,16 @@
   justify-content: space-evenly;
   transition: 0.5s;
 }
-.newitems .newitems-cards .container-newitems:hover {
+.newitems .products-container .product-card:hover {
   transform: scale(1.05);
 }
-.newitems .newitems-cards .container-newitems .newitems-bottom {
+.newitems .products-container .product-card .newitems-bottom {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
 }
-.newitems .newitems-cards .container-newitems .newitems-bottom .name-item {
+.newitems .products-container .product-card .newitems-bottom .name-item {
   font-family: Balsamiq Sans;
   color: var(--green_text);
   font-size: 18px;
@@ -224,11 +224,11 @@
   width: 100%;
   text-align: center;
 }
-.newitems .newitems-cards .container-newitems .newitems-bottom .price {
+.newitems .products-container .product-card .newitems-bottom .price {
   color: #7fc9f0;
   font-family: Montserrat;
 }
-.newitems .newitems-cards .container-newitems .newitems-bottom .buy-btn {
+.newitems .products-container .product-card .newitems-bottom .buy-btn {
   width: 146px;
   height: 48px;
   display: flex;
@@ -243,23 +243,23 @@
   font-weight: 500;
   transition: 0.5s;
 }
-.newitems .newitems-cards .container-newitems .newitems-bottom .buy-btn:hover {
+.newitems .products-container .product-card .newitems-bottom .buy-btn:hover {
   transform: scale(1.2);
   background-color: #7fdff0;
 }
-.newitems .newitems-cards .container-newitems .newitems-bottom .buy-click {
+.newitems .products-container .product-card .newitems-bottom .buy-click {
   color: #7fc9f0;
   font-family: Montserrat;
   font-size: 18px;
   font-weight: 500;
 }
 @media (max-width: 768px) {
-  .newitems .newitems-cards .container-newitems:hover {
+  .newitems .products-container .product-card:hover {
     transform: none;
   }
 }
 @media (max-width: 1440px) {
-  .newitems .newitems-cards {
+  .newitems .products-container {
     flex-wrap: wrap;
     -moz-column-gap: 20px;
          column-gap: 20px;
