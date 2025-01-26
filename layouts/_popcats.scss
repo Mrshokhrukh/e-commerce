@@ -18,6 +18,10 @@
     justify-content: center;
     align-items: center;
     gap: 42px;
+    transition: 0.5s;
+   &:hover{
+    transform: scale(1.05);
+   }
     .about-cats {
       padding-left: 60px;
       .btn-cats {
