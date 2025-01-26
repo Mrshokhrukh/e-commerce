@@ -3,7 +3,6 @@ import { fetchProducts } from "../services/api.js";
 
 export const renderProducts = async function () {
   const productContainer = document.querySelector(".products-container");
-  console.log(productContainer);
 
   try {
     const { products } = await fetchProducts();
@@ -16,6 +15,7 @@ export const renderProducts = async function () {
     products.slice(0, 10).forEach((product) => {
       const productCard = createProductCard(product);
       productContainer.appendChild(productCard);
+      
     });
   } catch (error) {
     productContainer.innerHTML = `<p>Failed to load products. Please try again later.</p>`;
