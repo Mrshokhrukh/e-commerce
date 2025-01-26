@@ -163,6 +163,7 @@
   font-size: 48px;
   font-weight: var(--font-weight);
   color: var(--text-color-1-sea);
+  margin: 25px 0 25px 0;
 }
 
 .zakas-p {
@@ -177,6 +178,20 @@
   height: 16px;
   border-radius: 50%;
   background-color: #27AE60;
+}
+
+.corcle2 {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #7FC9F0;
+}
+
+.corcle3 {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #C52121;
 }
 
 .corcle-right {
@@ -208,7 +223,7 @@
   font-size: var(--header-text-size-1);
   color: var(--text-color-1-sea);
   font-weight: var(--font-weight);
-  width: 90%;
+  width: 100%;
   margin-bottom: 16px;
 }
 
@@ -266,9 +281,16 @@
 }
 
 .card {
-  width: 716px;
+  width: 655px;
   height: auto;
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.0392156863);
   border-radius: 15px;
   padding: 30px 30px;
+}
+
+.main_section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto auto;
+  gap: 25px;
 }/*# sourceMappingURL=main.css.map */
