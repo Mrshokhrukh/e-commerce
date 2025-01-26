@@ -27,6 +27,10 @@
   justify-content: center;
   align-items: center;
   gap: 42px;
+  transition: 0.5s;
+}
+.cards-cats .container-cats:hover {
+  transform: scale(1.05);
 }
 .cards-cats .container-cats .about-cats {
   padding-left: 60px;
