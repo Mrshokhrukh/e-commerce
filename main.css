@@ -1,3 +1,10 @@
+.basket-products {
+  background-color: rgb(122, 122, 195);
+}
+.basket-products h1 {
+  color: red;
+}
+
 body {
   background-color: red;
 }/*# sourceMappingURL=main.css.map */
