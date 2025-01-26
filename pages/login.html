@@ -11,15 +11,21 @@
     <h1>Регистрация</h1>
 
     <form action="">
-<input type="text" placeholder="Имя" id="name" name="name" >
+<input class="text_input" type="text" placeholder="Имя" id="name" name="name" > 
 
-<input type="email" placeholder="Электронный адрес" id="email" name="email">
-<input type="password" placeholder="Пароль" id="pass" name="pass">
-<input type="password" placeholder="Повторите пароль" id="pass" name="pass" >
+<input  class="text_input" type="email" placeholder="Электронный адрес" id="email" name="email">
+<input   class="text_input" type="password" placeholder="Пароль" id="pass" name="pass">
+<input  class="text_input" type="password" placeholder="Повторите пароль" id="pass" name="pass" >
 
-<button><a href="#">Вставить каптчу</a></button>
+<button id="norobot"><a href="#">Вставить каптчу</a></button>
 
-<input type="checkbox"><p>Согласие с пользовательским соглашением <span>и</span> политикой конфиденциальности</p>
+<div class="agree">
+    <input type="checkbox" name="agree" id="agree"><label for="agree"><p> <span>Согласие с </span>пользовательским соглашением <span>и</span> политикой конфиденциальности</p></label>
+</div>
+
+<button id="registr"><a href="#">Вставить каптчу</a></button>
+
+
     </form>
 
 </div>

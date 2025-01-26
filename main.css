@@ -3,4 +3,71 @@
 /* Balsamiq Sans  */
 :root {
   --green_text:#446B80;
+}
+
+.login h1 {
+  font-family: Balsamiq Sans;
+  font-size: 48px;
+  font-weight: 400;
+  color: var(--green_text);
+}
+.login form {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 30px;
+}
+.login form .text_input {
+  width: 469px;
+  height: 64px;
+  padding-left: 20px;
+  font-size: 35px;
+  font-family: Montserrat;
+  font-weight: 400;
+  border-radius: 12px;
+}
+.login form .agree {
+  display: flex;
+  gap: 5px;
+  color: #7FC9F0;
+  font-family: Montserrat;
+  font-size: 18px;
+}
+.login form .agree span {
+  color: #223540;
+}
+.login form #norobot {
+  width: 192px;
+  height: 64px;
+  border-radius: 12px;
+  border: solid 1px #223540;
+  background-color: white;
+}
+.login form #norobot a {
+  font-size: 18px;
+  color: #223540;
+  text-decoration: none;
+}
+.login form #norobot:hover {
+  background-color: #316583;
+}
+.login form #norobot:hover a {
+  color: white;
+}
+.login form #registr {
+  width: 244px;
+  height: 48px;
+  gap: 0px;
+  border-radius: 12px;
+  background-color: #7FC9F0;
+  border: none;
+}
+.login form #registr a {
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+}
+.login form #registr:hover {
+  background-color: #223540;
 }/*# sourceMappingURL=main.css.map */

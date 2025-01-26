@@ -1,0 +1,93 @@
+.login {
+  h1 {
+    font-family: Balsamiq Sans;
+    font-size: 48px;
+    font-weight: 400;
+    color: var(--green_text);
+  }
+
+  form {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 30px;
+
+
+.text_input{
+    width: 469px;
+height: 64px;
+padding-left: 20px;
+font-size: 35px;
+font-family: 
+Montserrat;
+font-weight: 400;
+border-radius: 12px;
+
+
+}
+
+.agree{
+    display: flex;
+    gap: 5px;
+color: #7FC9F0;
+font-family: 
+Montserrat;
+font-size: 18px;
+
+    span{
+color: #223540;
+    }
+}
+
+#norobot{
+    width: 192px;
+    height: 64px;
+    border-radius: 12px;
+    border: solid 1px #223540;
+    background-color: white;
+
+    a{
+        font-size: 18px;
+        color: #223540;
+        text-decoration: none;
+    }
+  
+
+&:hover{
+    background-color: #316583;
+   a{
+   
+    color:white;
+   
+}
+}   
+
+}
+
+#registr{
+    width: 244px;
+height: 48px;
+gap: 0px;
+border-radius: 12px ;
+background-color: #7FC9F0;
+border: none;
+
+a{
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+&:hover{
+    background-color: #223540;
+}
+
+}
+
+
+
+
+  }
+}
