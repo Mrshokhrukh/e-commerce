@@ -4,11 +4,17 @@ export function createProductCard(product) {
   card.classList.add("product-card");
 
   card.innerHTML = `
-        <img src="${product.image}" alt="${product.name}">
-        <h3>${product.name}</h3>
-        <p>${product.description}</p>
-        <p><strong>Price: $${product.price}</strong></p>
-        <button class="add-to-cart" data-id="${product.id}">Add to Cart</button>
+     <div class="product-card">
+            <div class="newitems-top">
+                <img src="${""}" alt="404">
+            </div>
+            <div class="newitems-bottom">
+                <p class="name-item">Коляска Riko Basic, Польша</p>
+                <h1 class="price">52 000 <img src="../images/newitems-images/rubl.png" alt=""> </h1>
+                <a href="" class="buy-btn add-to-cart">В корзину</a>
+                <p class="buy-click">Купить в один клик</p>
+            </div>
+        </div>
     `;
 
   card.querySelector(".add-to-cart").addEventListener("click", () => {
