@@ -5,6 +5,20 @@
   --green_text:#446B80;
 }
 
+:root {
+  --head-bg-color: #ECC7C1;
+  --text-color-1-sea:#446B80;
+  --text-color-2-blue: #7FC9F0;
+  --text-color-3-withe:#fff;
+  --text-color-4-black: black;
+  --btn-color-1-blue: #7FC9F0;
+  --header-text-size-1: 18px;
+  --home-text-size-1: 80px;
+  --home-text-size-2: 24px;
+  --home-btn-text-size: 18px;
+  --font-weight: 400;
+}
+
 .placer-1 {
   display: flex;
   align-items: center;
@@ -40,7 +54,19 @@ header .top-header .top-header-child .top-header-child-l,
 header .top-header .top-header-child .top-header-child-r {
   flex: 1;
 }
-
+header .top-header .top-header-child .top-header-child-r .header-category .header-category-btn {
+  width: 223px;
+  height: 48px;
+  border-radius: 12px;
+  border: none;
+  font-size: 18px;
+  background-color: var(--btn-color-1-blue);
+  color: var(--text-color-3-withe);
+  gap: 5px;
+}
+header .top-header .top-header-child .top-header-child-r .header-category .header-category-btn .bx {
+  font-size: 30px;
+}
 body {
   background-color: red;
 }/*# sourceMappingURL=main.css.map */
