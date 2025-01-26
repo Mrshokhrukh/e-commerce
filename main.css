@@ -144,10 +144,48 @@
     justify-content: center;
   }
 }
-.home {
+.home-page {
+  margin: 10px auto;
   width: 90%;
   max-width: 1400px;
   height: auto;
+  font-family: Montserrat;
+  background-color: var;
+}
+.home-page .home-page-r {
+  flex: 1;
+  gap: 20px;
+}
+.home-page .home-page-r h1 {
+  font-size: 70px;
+}
+.home-page .home-page-r p {
+  font-size: 18px;
+}
+.home-page .home-page-r button {
+  width: 139px;
+  height: 48px;
+  gap: 0px;
+  border-radius: 12px;
+  border: none;
+  background-color: var(--text-color-2-blue);
+  color: white;
+}
+.home-page .home-page-l {
+  flex: 1;
+  position: relative;
+}
+.home-page .home-page-l img:nth-child(1) {
+  border-radius: 40% 50% 60% 10%;
+  position: relative;
+  z-index: 2;
+  height: 500px;
+}
+.home-page .home-page-l img:nth-child(2) {
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 500px;
 }
 
 * {
@@ -157,7 +195,7 @@
 }
 
 :root {
-  --head-bg-color: #ecc7c1;
+  --head-bg-color: #ecc7c16b;
   --text-color-1-sea: #446b80;
   --text-color-2-blue: #7fc9f0;
   --text-color-3-withe: #fff;
@@ -169,6 +207,10 @@
   --home-btn-text-size: 18px;
   --font-weight: 400;
   --gray: rgb(225, 225, 225);
+}
+
+.conatiner-one {
+  background-color: var(--head-bg-color);
 }
 
 .placer-1 {
@@ -192,7 +234,6 @@ header {
   margin: auto;
   width: 90%;
   flex-direction: column;
-  background-color: white;
   max-width: 1400px;
   font-family: Montserrat;
 }

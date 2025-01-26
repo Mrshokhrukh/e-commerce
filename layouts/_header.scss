@@ -7,7 +7,7 @@
 }
 
 :root {
-    --head-bg-color: #ecc7c1;
+    --head-bg-color: #ecc7c16b;
     --text-color-1-sea: #446b80;
     --text-color-2-blue: #7fc9f0;
     --text-color-3-withe: #fff;
@@ -19,6 +19,10 @@
     --home-btn-text-size: 18px;
     --font-weight: 400;
     --gray: rgb(225, 225, 225);
+}
+
+.conatiner-one{
+    background-color: var(--head-bg-color);
 }
 
 .placer-1 {
@@ -42,7 +46,6 @@ header {
     margin: auto;
     width: 90%;
     flex-direction: column;
-    background-color: white;
     max-width: 1400px;
     font-family: Montserrat;
 
