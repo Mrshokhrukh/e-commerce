@@ -62,9 +62,10 @@ header {
             }
 
             .top-header-child-r {
+                gap: 30px;
                 .header-category {
                     .header-category-btn {
-                        width: 223px;
+                        flex: 1;
                         height: 45px;
                         border-radius: 12px;
                         border: none;
@@ -72,6 +73,7 @@ header {
                         background-color: var(--btn-color-1-blue);
                         color: var(--text-color-3-withe);
                         gap: 5px;
+                        padding: 0 10px;
                         cursor: pointer;
                         .bx {
                             font-size: 30px;
@@ -80,7 +82,7 @@ header {
                 }
 
                 .header-search {
-                    width: 309px;
+                    flex: 1;
                     height: 40px;
                     border-radius: 12px;
                     background-color: var(--gray);
@@ -110,6 +112,44 @@ header {
                     }
                 }
             }
+            
+            .top-header-child-l{
+                .header-cabinets{
+                    font-size: 18px;
+                    gap: 10px;
+                    cursor: pointer;
+                    .bx{
+                        color: var(--text-color-2-blue);
+                        font-size: 30px;
+                    }
+                    p{
+                        color: var(--text-color-1-sea);
+                    }
+                }
+
+                .header-basket{
+                    font-size: 18px;
+                    position: relative;
+                    gap: 20px;
+                    .bx{
+                        font-size: 40px;
+                        cursor: pointer;
+                        color: var(--text-color-2-blue);
+                    }
+                    span{
+                        position: absolute;
+                    }
+                    p{
+                        font-size: 18px;
+                        color: var(--text-color-1-sea);
+                    }
+                }
+            }
         }
+    }
+
+    .bottom-header{
+        width: 100%;
+        padding: 10px 0;
     }
 }

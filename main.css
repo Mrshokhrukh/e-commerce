@@ -66,8 +66,11 @@ header .top-header .top-header-child .top-header-child-r {
 header .top-header .top-header-child .top-header-child-r {
   flex: 1.5;
 }
+header .top-header .top-header-child .top-header-child-r {
+  gap: 30px;
+}
 header .top-header .top-header-child .top-header-child-r .header-category .header-category-btn {
-  width: 223px;
+  flex: 1;
   height: 45px;
   border-radius: 12px;
   border: none;
@@ -75,13 +78,14 @@ header .top-header .top-header-child .top-header-child-r .header-category .heade
   background-color: var(--btn-color-1-blue);
   color: var(--text-color-3-withe);
   gap: 5px;
+  padding: 0 10px;
   cursor: pointer;
 }
 header .top-header .top-header-child .top-header-child-r .header-category .header-category-btn .bx {
   font-size: 30px;
 }
 header .top-header .top-header-child .top-header-child-r .header-search {
-  width: 309px;
+  flex: 1;
   height: 40px;
   border-radius: 12px;
   background-color: var(--gray);
@@ -106,6 +110,39 @@ header .top-header .top-header-child .top-header-child-r .header-search .header-
   background-color: var(--btn-color-1-blue);
   color: var(--text-color-3-withe);
   cursor: pointer;
+}
+header .top-header .top-header-child .top-header-child-l .header-cabinets {
+  font-size: 18px;
+  gap: 10px;
+  cursor: pointer;
+}
+header .top-header .top-header-child .top-header-child-l .header-cabinets .bx {
+  color: var(--text-color-2-blue);
+  font-size: 30px;
+}
+header .top-header .top-header-child .top-header-child-l .header-cabinets p {
+  color: var(--text-color-1-sea);
+}
+header .top-header .top-header-child .top-header-child-l .header-basket {
+  font-size: 18px;
+  position: relative;
+  gap: 20px;
+}
+header .top-header .top-header-child .top-header-child-l .header-basket .bx {
+  font-size: 40px;
+  cursor: pointer;
+  color: var(--text-color-2-blue);
+}
+header .top-header .top-header-child .top-header-child-l .header-basket span {
+  position: absolute;
+}
+header .top-header .top-header-child .top-header-child-l .header-basket p {
+  font-size: 18px;
+  color: var(--text-color-1-sea);
+}
+header .bottom-header {
+  width: 100%;
+  padding: 10px 0;
 }
 
 body {
