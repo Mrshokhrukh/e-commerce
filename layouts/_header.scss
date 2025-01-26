@@ -1,13 +1,38 @@
-header{
-    margin: auto;
-    width: 90%;
+.placer-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.placer-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.placer-3 {
     display: flex;
     flex-direction: column;
+}
+
+header {
+    margin: auto;
+    width: 90%;
+    flex-direction: column;
     background-color: white;
-    .top-header{
+
+    .top-header {
         width: 100%;
         height: 100px;
-        display: flex;
         background-color: blue;
+
+        .top-header-child {
+            width: 100%;
+
+            .top-header-child-l,
+            .top-header-child-r {
+                flex: 1;
+            }
+        }
     }
 }
