@@ -5,10 +5,53 @@
   --green_text:#446B80;
 }
 
-.container-cats {
-  background-color: red;
+.categories {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
 }
 
-h1 {
-  color: red;
+.cards-cats {
+  display: flex;
+  justify-content: space-between;
+}
+.cards-cats .container-cats {
+  max-width: 470px;
+  width: 100%;
+  height: 360px;
+  font-family: Montserrat;
+  color: var(--green_text);
+  background-color: #f3dbd7;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 42px;
+}
+.cards-cats .container-cats .about-cats {
+  padding-left: 60px;
+}
+.cards-cats .container-cats .about-cats .btn-cats {
+  width: 122px;
+  height: 48px;
+  border-radius: 12px;
+  border: 1px solid var(--green_text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: var(--green_text);
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 30px;
+  transition: 0.5s;
+}
+.cards-cats .container-cats .about-cats .btn-cats:hover {
+  transform: scale(1.2);
+}
+.cards-cats .container-cats:nth-child(2) {
+  background-color: #FDF6EF;
+}
+.cards-cats .container-cats:nth-child(3) {
+  background-color: #E5F4FC;
 }/*# sourceMappingURL=main.css.map */
