@@ -1,5 +1,5 @@
 import { loadCartPage } from "../pages/cart.js";
-import { removeFromCart, updateCartQuantity } from "./createProductCard.js";
+import { removeFromCart, updateCartQuantity } from "./productActions.js";
 
 export function createCartItem(item) {
   const cartItem = document.createElement("div");
