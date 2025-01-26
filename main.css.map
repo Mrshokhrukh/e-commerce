@@ -1,1 +1,1 @@
-{"version":3,"sources":["base/_base.scss","main.css","layouts/_popcats.scss"],"names":[],"mappings":"AAAQ,kZAAA;AACA,ocAAA;AACR,mBAAA;AAEA;EACI,oBAAA;ACAJ;;ACLA;EACI,qBAAA;ADQJ","file":"main.css"}
+{"version":3,"sources":["base/_base.scss","main.css","layouts/_popcats.scss","style-pages/_cards_wrapper.scss"],"names":[],"mappings":"AAAQ,kZAAA;AACA,ocAAA;AACR,mBAAA;AAEA;EACI,oBAAA;ACAJ;;ACLA;EACI,qBAAA;ADQJ;;AETA;EACI,UAAA;AFYJ","file":"main.css"}
