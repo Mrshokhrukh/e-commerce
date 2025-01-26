@@ -48,6 +48,7 @@ header {
   width: 90%;
   flex-direction: column;
   background-color: white;
+  max-width: 1400px;
 }
 header .top-header {
   width: 100%;
@@ -67,7 +68,7 @@ header .top-header .top-header-child .top-header-child-r {
 }
 header .top-header .top-header-child .top-header-child-r .header-category .header-category-btn {
   width: 223px;
-  height: 48px;
+  height: 45px;
   border-radius: 12px;
   border: none;
   font-size: 18px;
@@ -81,13 +82,15 @@ header .top-header .top-header-child .top-header-child-r .header-category .heade
 }
 header .top-header .top-header-child .top-header-child-r .header-search {
   width: 309px;
-  height: 48px;
+  height: 40px;
   border-radius: 12px;
   background-color: var(--gray);
 }
 header .top-header .top-header-child .top-header-child-r .header-search .bx {
   width: 40px;
   font-size: 20px;
+  padding-left: 20px;
+  padding: 30px;
 }
 header .top-header .top-header-child .top-header-child-r .header-search input {
   flex: 1;

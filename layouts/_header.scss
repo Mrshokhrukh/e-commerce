@@ -41,6 +41,7 @@ header {
     width: 90%;
     flex-direction: column;
     background-color: white;
+    max-width: 1400px;
 
     .top-header {
         width: 100%;
@@ -64,7 +65,7 @@ header {
                 .header-category {
                     .header-category-btn {
                         width: 223px;
-                        height: 48px;
+                        height: 45px;
                         border-radius: 12px;
                         border: none;
                         font-size: 18px;
@@ -80,13 +81,15 @@ header {
 
                 .header-search {
                     width: 309px;
-                    height: 48px;
+                    height: 40px;
                     border-radius: 12px;
                     background-color: var(--gray);
 
                     .bx{
                         width: 40px;
                         font-size: 20px;
+                        padding-left: 20px;
+                        padding: 30px;
                     }
 
                     input{
