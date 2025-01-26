@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"version":3,"sources":["style-pages/_user-card.scss","main.css","main.scss"],"names":[],"mappings":"AAAA;EACI,oCAAA;ACCJ;ADAI;EACI,UAAA;ACER;;ACJA;EACI,qBAAA;ADOJ","file":"main.css"}
+=======
+{"version":3,"sources":["base/_base.scss","main.scss","main.css"],"names":[],"mappings":"AACQ,kZAAA;AACR,mBAAA;ACGA;EACI,qBAAA;ACFJ","file":"main.css"}
+>>>>>>> 8cdbfdce5c29a0793991bc655642e26cd3e1f486

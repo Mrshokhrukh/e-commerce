@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .basket-products {
   background-color: rgb(122, 122, 195);
 }
@@ -5,6 +6,10 @@
   color: red;
 }
 
+=======
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Oswald:wght@200..700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+/* Balsamiq Sans  */
+>>>>>>> 8cdbfdce5c29a0793991bc655642e26cd3e1f486
 body {
   background-color: red;
 }/*# sourceMappingURL=main.css.map */
