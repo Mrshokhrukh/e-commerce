@@ -4,6 +4,10 @@ import { loadPage } from "./project-functionality/routes/routes.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   loadPage(location.pathname);
+
     // renderProducts();
+
+    renderProducts();
+
   //   loadCartPage();
 });
