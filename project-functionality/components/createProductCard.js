@@ -1,5 +1,6 @@
 export function createProductCard(product) {
   const card = document.createElement("div");
+
   card.classList.add("product-card");
 
   card.innerHTML = `
