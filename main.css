@@ -153,6 +153,173 @@
   box-sizing: border-box;
 }
 
+:root {
+  --head-bg-color: #ecc7c1;
+  --text-color-1-sea: #446b80;
+  --text-color-2-blue: #7fc9f0;
+  --text-color-3-withe: #fff;
+  --text-color-4-black: black;
+  --btn-color-1-blue: #7fc9f0;
+  --header-text-size-1: 18px;
+  --home-text-size-1: 80px;
+  --home-text-size-2: 24px;
+  --home-btn-text-size: 18px;
+  --font-weight: 400;
+  --gray: rgb(225, 225, 225);
+}
+
+.placer-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.placer-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.placer-3 {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  margin: auto;
+  width: 90%;
+  flex-direction: column;
+  background-color: white;
+  max-width: 1400px;
+}
+header .top-header {
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid var(--gray);
+}
+header .top-header .top-header-child {
+  width: 100%;
+  gap: 60px;
+}
+header .top-header .top-header-child .top-header-child-l,
+header .top-header .top-header-child .top-header-child-r {
+  flex: 1;
+}
+header .top-header .top-header-child .top-header-child-r {
+  flex: 1.5;
+}
+header .top-header .top-header-child .top-header-child-r {
+  gap: 30px;
+}
+header .top-header .top-header-child .top-header-child-r .header-category .header-category-btn {
+  flex: 1;
+  height: 45px;
+  border-radius: 12px;
+  border: none;
+  font-size: 18px;
+  background-color: var(--btn-color-1-blue);
+  color: var(--text-color-3-withe);
+  gap: 5px;
+  padding: 0 10px;
+  cursor: pointer;
+}
+header .top-header .top-header-child .top-header-child-r .header-category .header-category-btn .bx {
+  font-size: 30px;
+}
+header .top-header .top-header-child .top-header-child-r .header-search {
+  flex: 1;
+  height: 40px;
+  border-radius: 12px;
+  background-color: var(--gray);
+}
+header .top-header .top-header-child .top-header-child-r .header-search .bx {
+  width: 40px;
+  font-size: 20px;
+  padding-left: 20px;
+  padding: 30px;
+}
+header .top-header .top-header-child .top-header-child-r .header-search input {
+  flex: 1;
+  height: 100%;
+  background-color: var(--gray);
+  border: none;
+}
+header .top-header .top-header-child .top-header-child-r .header-search .header-search-btn {
+  flex: 0.5;
+  height: 100%;
+  border-radius: 0px 12px 12px 0px;
+  border: none;
+  background-color: var(--btn-color-1-blue);
+  color: var(--text-color-3-withe);
+  cursor: pointer;
+}
+header .top-header .top-header-child .top-header-child-l .header-cabinets {
+  font-size: 18px;
+  gap: 10px;
+  cursor: pointer;
+}
+header .top-header .top-header-child .top-header-child-l .header-cabinets .bx {
+  color: var(--text-color-2-blue);
+  font-size: 30px;
+}
+header .top-header .top-header-child .top-header-child-l .header-cabinets p {
+  color: var(--text-color-1-sea);
+}
+header .top-header .top-header-child .top-header-child-l .header-basket {
+  font-size: 18px;
+  position: relative;
+  gap: 20px;
+}
+header .top-header .top-header-child .top-header-child-l .header-basket .bx {
+  font-size: 40px;
+  cursor: pointer;
+  color: var(--text-color-2-blue);
+}
+header .top-header .top-header-child .top-header-child-l .header-basket span {
+  top: 0;
+  left: 30%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: var(--text-color-3-withe);
+  background-color: var(--text-color-1-sea);
+  position: absolute;
+}
+header .top-header .top-header-child .top-header-child-l .header-basket p {
+  font-size: 18px;
+  color: var(--text-color-1-sea);
+}
+header .bottom-header {
+  width: 100%;
+  padding: 10px 0;
+}
+header .bottom-header .bottom-text-header {
+  font-size: 18px;
+  color: var(--text-color-1-sea);
+}
+header .bottom-header .header-a ul {
+  gap: 20px;
+}
+header .bottom-header .header-a ul a {
+  text-decoration: none;
+  color: var(--text-color-2-blue);
+  font-size: 18px;
+}
+header .bottom-header .header-map .bx {
+  font-size: 30px;
+  color: var(--text-color-1-sea);
+  cursor: pointer;
+}
+header .bottom-header .header-map p {
+  color: var(--text-color-2-blue);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .container {
   max-width: 1440px;
   margin: auto;
