@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Oswald:wght@200..700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import '../root.css';
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width:1440px;
+    margin: auto;
+}
+
+.subtitle{
+    font-family:"Balsamiq Sans";
+    font-size: 48px;
+    font-weight: var( --font-weight);
+    color: var(  --text-color-1-sea);
+}
+.zakas-p{
+    color: var(--text-color-1-sea);
+    font-size: var(  --header-text-size-1);
+    font-weight: var( --font-weight);
+    font-family: "Montserrat";
+}
+.corcle{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #27AE60;
+}
+.corcle-right{
+    font-family: Montserrat;
+    font-size: var(--header-text-size-1);
+    font-weight: 600;
+    color: var(--text-color-1-sea);
+    margin-top: 10px;
+}
+.span-top{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.border{
+    width: 100%;
+    border: 1px solid #223540;
+}
+.card_p{
+    font-family: "Montserrat";
+    font-size: var(--header-text-size-1);
+    color: var(--text-color-1-sea);
+    font-weight: var(--font-weight);
+    width: 40%;
+    margin-bottom: 10px;
+}
+.elements{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
