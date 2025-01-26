@@ -36,5 +36,6 @@ document.addEventListener("DOMContentLoaded", () => {
     //   e.preventDefault();
     //   navigateTo(e.target.getAttribute("href"));
     // }
+    
   });
 });
