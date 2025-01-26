@@ -144,6 +144,12 @@
     justify-content: center;
   }
 }
+.home {
+  width: 90%;
+  max-width: 1400px;
+  height: auto;
+}
+
 * {
   margin: 0;
   padding: 0;
