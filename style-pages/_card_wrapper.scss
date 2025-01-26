@@ -1,114 +1,111 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bokor&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fredoka:wght@300..700&family=Fugaz+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bokor&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fredoka:wght@300..700&family=Fugaz+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bokor&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fredoka:wght@300..700&family=Fugaz+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bokor&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fredoka:wght@300..700&family=Fugaz+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 
-    Montserrat;
+    font-family: Montserrat;
 }
 
-.container{
+.container {
     max-width: 1240px;
     margin: auto;
 }
 
-.home{
-    .home-top{
-        h1{
-            color: #446B80;
+.home {
+    .home-top {
+        h1 {
+            color: #446b80;
             font-family: Balsamiq Sans;
             font-weight: 400;
             font-size: 48px;
             line-height: 58px;
         }
     }
-    .home-wrapper{
+    .home-wrapper {
         display: flex;
         gap: 100px;
 
-        .home-left{
-         .home__left-text{
-            margin-top: 50px;
-            p{
-                font-weight: 500;
-                margin-top: 15px;
-                font-size: 24px;
-                line-height: 29px;
-                color: #446B80;
-                font-family: 
-                Montserrat;
-             }
-         }
+        .home-left {
+            .home__left-text {
+                margin-top: 50px;
+                p {
+                    font-weight: 500;
+                    margin-top: 15px;
+                    font-size: 24px;
+                    line-height: 29px;
+                    color: #446b80;
+                    font-family: Montserrat;
+                }
+            }
         }
-        .home-right{
+        .home-right {
             margin-top: 140px;
-            .home__right-wrapper{
+            .home__right-wrapper {
                 display: grid;
                 grid-template-columns: repeat(3, 1fr);
                 gap: 15px;
-                .home__right-card{
+                .home__right-card {
                     width: 346px;
                     height: 510px;
                     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
                     border-radius: 15px;
-    
-                    .card-like{
+
+                    .card-like {
                         float: right;
                         margin-top: 25px;
                         margin-right: 20px;
-    
-                        &:hover{
+
+                        &:hover {
                             color: red;
                             transition: 0.5s;
                         }
                     }
-    
-                    img{
+
+                    img {
                         display: flex;
                         justify-content: center;
                         align-items: center;
                         margin: auto;
                         padding-top: 25px;
                     }
-    
-                    p{
+
+                    p {
                         font-size: 18px;
                         font-weight: 400;
                         line-height: 24px;
                         text-align: center;
-                        color: #446B80;
+                        color: #446b80;
                         width: 214px;
-                        margin:10px auto;
+                        margin: 10px auto;
                         font-family: Balsamiq Sans;
                     }
-    
-                    h2{
-                        color: #7FC9F0;
+
+                    h2 {
+                        color: #7fc9f0;
                         text-align: center;
                         font-weight: 600;
                         font-size: 24px;
                         line-height: 32px;
-                        margin:10px auto;
-                        i{
+                        margin: 10px auto;
+                        i {
                             font-size: 18px;
                             margin-left: 2px;
                         }
-    
-                        span{
+
+                        span {
                             color: #446b8090;
                             text-decoration: line-through;
-                            text-decoration-thickness: 2px; 
+                            text-decoration-thickness: 2px;
                         }
-    
                     }
-    
-                    button{
+
+                    button {
                         width: 146px;
                         height: 48px;
-                        background-color: #7FC9F0;
+                        background-color: #7fc9f0;
                         color: white;
                         border-radius: 12px;
                         border: none;
@@ -122,10 +119,10 @@
                         margin: auto;
                         margin-top: 15px;
                     }
-    
-                    a{
+
+                    a {
                         text-decoration: none;
-                        color: #7FC9F0;
+                        color: #7fc9f0;
                         font-weight: 500;
                         font-size: 18px;
                         line-height: 21px;
@@ -133,11 +130,9 @@
                         margin: auto;
                         display: flex;
                         justify-content: center;
-    
                     }
                 }
             }
         }
     }
-
 }
