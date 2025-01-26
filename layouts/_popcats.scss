@@ -1,0 +1,34 @@
+.container-cats{
+max-width: 470px;
+width: 100%;
+height: 360px;
+font-family: Montserrat;
+color: var(--green_text);
+background-color: #F3DBD7;
+border-radius: 12px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 42px;
+.about-cats{
+    padding-left: 60px;
+    .btn-cats{
+        width: 122px;
+        height: 48px;
+        border-radius: 12px;
+        border: 1px solid var(--green_text);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: var(--green_text);
+        font-weight: 500;
+        font-size: 18px;
+        margin-top: 30px;
+        transition: 0.5s;
+        &:hover{
+            transform: scale(1.2);
+        }
+    }
+}
+}
