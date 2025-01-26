@@ -37,5 +37,10 @@ body {
   border-radius: 12px;
   border: none;
 }
+.main .location {
+  left: 250px;
+  width: 1000px;
+  height: 500px;
+}
 
 /*--------------------------------------------*//*# sourceMappingURL=contact.css.map */
