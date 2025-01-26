@@ -193,9 +193,14 @@
   gap: 10px;
 }
 
+.card-top {
+  margin-bottom: 25px;
+}
+
 .border {
   width: 100%;
   border: 1px solid #223540;
+  opacity: 16%;
 }
 
 .card_p {
@@ -203,12 +208,67 @@
   font-size: var(--header-text-size-1);
   color: var(--text-color-1-sea);
   font-weight: var(--font-weight);
-  width: 40%;
-  margin-bottom: 10px;
+  width: 90%;
+  margin-bottom: 16px;
 }
 
 .elements {
   display: flex;
   align-items: center;
   gap: 20px;
-} /*# sourceMappingURL=main.css.map */
+  margin-top: 25px;
+} 
+.data {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--text-color-1-sea);
+}
+
+.date {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: var(--font-weight);
+  color: var(--text-color-1-sea);
+}
+
+.date_div {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  margin-top: 30px;
+}
+
+.date_div2, .date_div5, .date_div4, .date_div3 {
+  display: flex;
+  align-items: center;
+  gap: 130px;
+  margin-top: 30px;
+}
+
+.date_div3 {
+  gap: 170px;
+}
+
+.date_div4 {
+  gap: 145px;
+}
+
+.date2 {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: var(--font-weight);
+  color: #7FC9F0;
+}
+
+.date_div5 {
+  gap: 90px;
+}
+
+.card {
+  width: 716px;
+  height: auto;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.0392156863);
+  border-radius: 15px;
+  padding: 30px 30px;
+}/*# sourceMappingURL=main.css.map */
