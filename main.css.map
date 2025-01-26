@@ -1,1 +1,5 @@
+<<<<<<< Updated upstream
 {"version":3,"sources":["base/_base.scss","main.css","layouts/_popcats.scss"],"names":[],"mappings":"AAAQ,kZAAA;AACA,ocAAA;AACR,mBAAA;AAEA;EACI,oBAAA;ACAJ;;ACLA;EACI,qBAAA;ADQJ","file":"main.css"}
+=======
+{"version":3,"sources":["base/_base.scss","layouts/_popcats.scss","main.css","main.scss"],"names":[],"mappings":"AACQ,kZAAA;AACR,mBAAA;ACFA;EACI,kCAAA;ACGJ;;ADDA;EACE,gBAAA;EACA,WAAA;EACA,aAAA;EACF,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,kBAAA;EACA,uBAAA;EACA,yBAAA;EACA,mBAAA;ACIA;;ACbA;EACI,qBAAA;ADgBJ","file":"main.css"}
+>>>>>>> Stashed changes
