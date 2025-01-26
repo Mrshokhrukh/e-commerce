@@ -15,10 +15,10 @@
       font-size: 70px;
     }
 }
-    .newitems-cards {
+    .products-container {
       display: flex;
       justify-content: space-between;
-      .container-newitems {
+      .product-card {
         max-width: 346px;
         width: 100%;
         height: 510px;
@@ -78,13 +78,13 @@
         }
       }
       @media (max-width:768px) {
-        .container-newitems:hover{
+        .product-card:hover{
             transform: none;
         }
       }
     }
     @media (max-width: 1440px) {
-      .newitems-cards {
+      .products-container {
         flex-wrap: wrap;
         column-gap: 20px;
         row-gap: 30px;
