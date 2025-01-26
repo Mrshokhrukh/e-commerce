@@ -4,15 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../main.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>User Card</title>
 </head>
 <body>
     <section class="user-card">
         <div class="basket-products">
-            <h1>basket-products</h1>
+            <h1 class="basket-products__title">В корзине 3 товара</h1>
+            <div class="basket-products__content">
+                <div class="product-cards">
+                    <div class="product-card">
+                        <div class="card-left">
+                            <img src="" alt="jpg">
+                            <div class="product-description">
+                                <p class="description">
+                                    Коляска CYBEX PRIAM LUX JEREMY SCOTT SPECIAL EDITION 2 В 1 на раме TREKKING
+                                </p>
+                                <a href="#" class="">В наличии</a>
+                            </div>
+                        </div>
+                        <div class="card-right">
+                            <div class="product-quantity">
+                                <a href="#" class="minus" id="minus"><i class='bx bx-minus'></i></a>
+                                <h3 id="quantity" class="quantity">1</h3>
+                                <a href="#" class="plus" id="plus"><i class='bx bx-plus' ></i></a>
+                            </div>
+                            <h3 class="price">152 000 <i class='bx bx-pound' ></i></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="sale-info">
+
+                </div>
+            </div>
         </div>
         <div class="reccomendation-products">
-            <h1>reccomendation-products</h1>
+            <h1>С этим покупают</h1>
+            <p>lorem    </p>
         </div>
     </section>
 </body>
