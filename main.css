@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Oswald:wght@200..700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 /* Balsamiq Sans  */
+
 :root {
   --green_text:#446B80;
 }
@@ -29,7 +30,7 @@
 .login form .agree {
   display: flex;
   gap: 5px;
-  color: #7FC9F0;
+  color: #7fc9f0;
   font-family: Montserrat;
   font-size: 18px;
 }
@@ -59,7 +60,7 @@
   height: 48px;
   gap: 0px;
   border-radius: 12px;
-  background-color: #7FC9F0;
+  background-color: #7fc9f0;
   border: none;
 }
 .login form #registr a {
@@ -70,4 +71,59 @@
 }
 .login form #registr:hover {
   background-color: #223540;
+}
+
+.categories {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+}
+
+.cards-cats {
+  display: flex;
+  justify-content: space-between;
+}
+.cards-cats .container-cats {
+  max-width: 470px;
+  width: 100%;
+  height: 360px;
+  font-family: Montserrat;
+  color: var(--green_text);
+  background-color: #f3dbd7;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 42px;
+  transition: 0.5s;
+}
+.cards-cats .container-cats:hover {
+  transform: scale(1.05);
+}
+.cards-cats .container-cats .about-cats {
+  padding-left: 60px;
+}
+.cards-cats .container-cats .about-cats .btn-cats {
+  width: 122px;
+  height: 48px;
+  border-radius: 12px;
+  border: 1px solid var(--green_text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: var(--green_text);
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 30px;
+  transition: 0.5s;
+}
+.cards-cats .container-cats .about-cats .btn-cats:hover {
+  transform: scale(1.2);
+}
+.cards-cats .container-cats:nth-child(2) {
+  background-color: #FDF6EF;
+}
+.cards-cats .container-cats:nth-child(3) {
+  background-color: #E5F4FC;
 }/*# sourceMappingURL=main.css.map */
