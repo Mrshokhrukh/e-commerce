@@ -36,6 +36,11 @@
   border-radius: 50%;
   background-color: #27AE60;
   margin-top: 10px;
+  transition: 2ms;
+  &:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+  }
 }
 .corcle2{
   width: 16px;
@@ -43,6 +48,11 @@
   border-radius: 50%;
   background-color:#7FC9F0;
   margin-top: 10px;
+  transition: 2ms;
+  &:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+  }
 }
 .corcle3{
   width: 16px;
@@ -50,6 +60,11 @@
   border-radius: 50%;
   background-color:#C52121;
   margin-top: 10px;
+  transition: 2ms;
+  &:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+  }
 }
 .corcle-right {
   font-family: Montserrat;
@@ -131,6 +146,10 @@
   font-size: 18px;
   font-weight: var(--font-weight);
   color: #7FC9F0;
+  &:hover{
+    color:#0992db; 
+    cursor: pointer;
+  }
 }
 .date_div5{
   @extend .date_div2;
@@ -167,4 +186,7 @@
     grid-template-rows: auto auto auto;
     gap: 12px;
   }
+}
+@media(max-width:480px){
+
 }

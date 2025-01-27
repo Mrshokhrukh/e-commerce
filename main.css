@@ -346,6 +346,11 @@ header .bottom-header .header-map p {
   border-radius: 50%;
   background-color: #27AE60;
   margin-top: 10px;
+  transition: 2ms;
+}
+.corcle:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .corcle2 {
@@ -354,6 +359,11 @@ header .bottom-header .header-map p {
   border-radius: 50%;
   background-color: #7FC9F0;
   margin-top: 10px;
+  transition: 2ms;
+}
+.corcle2:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .corcle3 {
@@ -362,6 +372,11 @@ header .bottom-header .header-map p {
   border-radius: 50%;
   background-color: #C52121;
   margin-top: 10px;
+  transition: 2ms;
+}
+.corcle3:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .corcle-right {
@@ -451,6 +466,10 @@ header .bottom-header .header-map p {
   font-size: 18px;
   font-weight: var(--font-weight);
   color: #7FC9F0;
+}
+.date2:hover {
+  color: #0992db;
+  cursor: pointer;
 }
 
 .date_div5 {
