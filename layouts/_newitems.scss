@@ -18,6 +18,7 @@
     .products-container {
       display: flex;
       justify-content: space-between;
+      flex-direction: row;
       .product-card {
         max-width: 346px;
         width: 100%;

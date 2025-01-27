@@ -194,6 +194,7 @@
 .newitems .products-container {
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
 }
 .newitems .products-container .product-card {
   max-width: 346px;
