@@ -177,6 +177,7 @@
   padding: 16px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   margin-top: 20px;
+  display: none;
 }
 
 h2 {
@@ -254,7 +255,6 @@ h2 {
 }
 
 
-
 .delivery-container {
   width: 100%;
   max-width: 320px;
@@ -267,6 +267,7 @@ h2 {
   background: white;
   border-radius: 12px;
   padding: 12px;
+  display: none;
 }
 
 .delivery-section {
@@ -352,6 +353,7 @@ h2 {
   .delivery-card {
       max-width: 450px;
       margin: 0 auto;
+      display: block;
   }
 
   .section-title {
@@ -369,6 +371,9 @@ h2 {
   .option-price {
       font-size: 13px;
   }
+  .order-card{
+    display: block;
+  }
 }
 
 
@@ -384,6 +389,7 @@ h2 {
   background: white;
   border-radius: 12px;
   padding: 12px;
+  display: none;
 }
 
 .section-title {
@@ -505,6 +511,7 @@ h2 {
   .transport-card {
       max-width: 450px;
       margin: 0 auto;
+      display: block;
   }
 
   .section-title,
@@ -546,6 +553,7 @@ h2 {
   background: white;
   border-radius: 12px;
   padding: 12px;
+  display: none;
 }
 
 .payment-section,
@@ -645,6 +653,7 @@ h2 {
   background-color: #6bb3d6;
 }
 
+
 @media (min-width: 321px) and (max-width: 480px) {
   .payment-container {
       max-width: 100%;
@@ -653,6 +662,7 @@ h2 {
   .payment-card {
       max-width: 450px;
       margin: 0 auto;
+      display: block;
   }
 
   .section-title {
@@ -725,7 +735,7 @@ h2 {
     font-size: 25px;
    font-weight: 400; 
     color: var(--text-color-1-sea);
-    margin-top: 15px;
+    margin-top: 25px;
     margin-left: 10px;
   }
   .subtitle{
