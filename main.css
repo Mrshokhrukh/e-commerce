@@ -490,6 +490,14 @@ header .bottom-header .header-map p {
   grid-template-rows: auto;
 }
 
+.kalaska {
+  width: 60%;
+}
+
+.subtitle2 {
+  display: none;
+}
+
 @media (max-width: 1115px) {
   .main_section {
     display: grid;
@@ -506,5 +514,61 @@ header .bottom-header .header-map p {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: auto auto auto;
     gap: 12px;
+  }
+}
+@media (max-width: 480px) {
+  .kalaska {
+    width: 20%;
+  }
+  .card {
+    padding: 15px 15px;
+  }
+  .date_div {
+    display: none;
+  }
+  .date_div2, .date_div3, .date_div4, .date_div5 {
+    display: none;
+  }
+  .date_div3 {
+    display: none;
+  }
+  .date_div4 {
+    display: none;
+  }
+  .date_div5 {
+    display: none;
+  }
+  .date_div7 {
+    display: none;
+  }
+  .card-top {
+    display: none;
+  }
+  .border {
+    display: none;
+  }
+  .subtitle2 {
+    display: block;
+    font-family: Balsamiq Sans;
+    font-size: 25px;
+    font-weight: 400;
+    color: var(--text-color-1-sea);
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+  .subtitle {
+    font-family: Balsamiq Sans;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 10px;
+  }
+  .card2 {
+    display: none;
+  }
+  .card {
+    width: 300px;
+  }
+  body {
+    background-color: #FFFFFF;
   }
 }/*# sourceMappingURL=main.css.map */
