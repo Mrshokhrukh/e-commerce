@@ -1,4 +1,4 @@
-export const API_BASE_URL = "https://dummyjson.com/"; 
+export const API_BASE_URL = "https://dummyjson.com/";
 
 export async function fetchProducts() {
   try {
@@ -11,11 +11,9 @@ export async function fetchProducts() {
     const products = await response.json();
 
     return products;
-
+    
   } catch (error) {
     console.error("Failed to fetch products:", error);
     throw error;
   }
 }
-
-
