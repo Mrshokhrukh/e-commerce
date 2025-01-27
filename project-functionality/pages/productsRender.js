@@ -1,28 +1,22 @@
-import { createProductCard } from "../components/createProductCard";
+import { createProductCard } from "../components/createProductCard.js";
+import { fetchProducts } from "../services/api.js";
 
 export const renderProducts = async function () {
-    
-  const HtmlAppElement = document.getElementById("");
+  const productContainer = document.querySelector(".products-container");
 
   try {
-    const products = await fetchProducts();
-
+    const { products } = await fetchProducts();
+    
     if (products.length === 0) {
-      app.innerHTML = `<p>No products available.</p>`;
+      productContainer.innerHTML = `<p>No products available.</p>`;
       return;
     }
 
-    const productGrid = document.createElement("div");
-    productGrid.classList.add(" grid ");
-
-    products.forEach((product) => {
+    products.slice(0, 10).forEach((product) => {
       const productCard = createProductCard(product);
-      productGrid.appendChild(productCard);
+      productContainer.appendChild(productCard);
     });
-
-    app.innerHTML = "hello world";
-    app.appendChild(productGrid);
   } catch (error) {
-    app.innerHTML = `<p>Failed to load products. Please try again later.</p>`;
+    productContainer.innerHTML = `<p>Failed to load products. Please try again later.</p>`;
   }
 };
