@@ -395,6 +395,12 @@ header .top-header .top-header-child .top-header-child-r .header-category .heade
   gap: 5px;
   padding: 0 10px;
   cursor: pointer;
+  border: 2px solid var(--btn-color-1-blue);
+  transition: 0.3s ease;
+}
+header .top-header .top-header-child .top-header-child-r .header-category .header-category-btn:hover {
+  background-color: var(--text-color-3-withe);
+  color: var(--btn-color-1-blue);
 }
 header .top-header .top-header-child .top-header-child-r .header-category .header-category-btn .bx {
   font-size: 30px;
@@ -425,6 +431,12 @@ header .top-header .top-header-child .top-header-child-r .header-search .header-
   background-color: var(--btn-color-1-blue);
   color: var(--text-color-3-withe);
   cursor: pointer;
+  border: 2px solid var(--btn-color-1-blue);
+  transition: 0.3s ease;
+}
+header .top-header .top-header-child .top-header-child-r .header-search .header-search-btn:hover {
+  background-color: var(--text-color-3-withe);
+  color: var(--btn-color-1-blue);
 }
 header .top-header .top-header-child .top-header-child-l .header-cabinets {
   font-size: 18px;
