@@ -7,6 +7,13 @@
     color: var(--green_text);
     font-size: 80px;
     text-align: center;
+    padding-top: 60px;
+    padding-bottom: 100px;
+  }
+  @media (max-width:768px) {
+    .title-cats{
+      font-size: 50px;
+    }
   }
 }
 .cards-cats {
@@ -51,6 +58,28 @@
       }
     }
   }
+  @media (max-width:768px) {
+    .container-cats{
+       flex-direction: column !important;
+       height: auto;
+       align-items: center;
+       .about-cats{
+        padding-left: 0;
+        align-items: center;
+       display: flex;
+       flex-direction: column;
+       h1{
+        padding-top: 10px;
+        padding-bottom: 20px;
+       }
+
+      }
+    }
+   .container-cats:hover{
+    transform: none;
+   
+   }
+}
   .container-cats:nth-child(2){
     background-color: #FDF6EF;
   }
