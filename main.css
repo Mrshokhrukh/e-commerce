@@ -345,6 +345,7 @@ header .bottom-header .header-map p {
   height: 16px;
   border-radius: 50%;
   background-color: #27AE60;
+  margin-top: 10px;
 }
 
 .corcle2 {
@@ -352,6 +353,7 @@ header .bottom-header .header-map p {
   height: 16px;
   border-radius: 50%;
   background-color: #7FC9F0;
+  margin-top: 10px;
 }
 
 .corcle3 {
@@ -359,6 +361,7 @@ header .bottom-header .header-map p {
   height: 16px;
   border-radius: 50%;
   background-color: #C52121;
+  margin-top: 10px;
 }
 
 .corcle-right {
@@ -387,7 +390,7 @@ header .bottom-header .header-map p {
 
 .card_p {
   font-family: "Montserrat";
-  font-size: var(--header-text-size-1);
+  font-size: 14px;
   color: var(--text-color-1-sea);
   font-weight: var(--font-weight);
   width: 100%;
@@ -402,14 +405,14 @@ header .bottom-header .header-map p {
 } 
 .data {
   font-family: Montserrat;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 500;
   color: var(--text-color-1-sea);
 }
 
 .date {
   font-family: Montserrat;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: var(--font-weight);
   color: var(--text-color-1-sea);
 }
@@ -417,11 +420,18 @@ header .bottom-header .header-map p {
 .date_div {
   display: flex;
   align-items: center;
-  gap: 100px;
+  gap: 107px;
   margin-top: 30px;
 }
 
 .date_div2, .date_div5, .date_div4, .date_div3 {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.date_div7 {
   display: flex;
   align-items: center;
   gap: 130px;
@@ -429,7 +439,7 @@ header .bottom-header .header-map p {
 }
 
 .date_div3 {
-  gap: 170px;
+  gap: 60px;
 }
 
 .date_div4 {
@@ -448,7 +458,7 @@ header .bottom-header .header-map p {
 }
 
 .card {
-  width: 655px;
+  width: 440px;
   height: auto;
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.0392156863);
   border-radius: 15px;
@@ -457,7 +467,25 @@ header .bottom-header .header-map p {
 
 .main_section {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto auto;
-  gap: 25px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+}
+
+@media (max-width: 1115px) {
+  .main_section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto auto;
+    gap: 7px;
+  }
+  .card {
+    margin: auto;
+  }
+}
+@media (max-width: 940px) {
+  .main_section {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto auto auto;
+    gap: 12px;
+  }
 }/*# sourceMappingURL=main.css.map */
