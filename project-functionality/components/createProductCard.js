@@ -8,7 +8,7 @@ export function createProductCard(product) {
   card.innerHTML = `
      <div class="product-card">
             <div class="newitems-top">
-                <img src="${""}" alt="404">
+                <img src="${product?.images[0]}" alt="404">
             <div class="newitems-top">
                 <img src="../../images/newitems-images/kalyaska.png" alt="404">
             </div>
