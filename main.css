@@ -462,6 +462,13 @@ header .top-header .top-header-child .top-header-child-l .header-basket p {
   font-size: 18px;
   color: var(--text-color-1-sea);
 }
+header .top-header .top-header-child .header-menu {
+  display: none;
+}
+header .top-header .top-header-child .header-menu .bx {
+  font-size: 40px;
+  color: var(--btn-color-1-blue);
+}
 header .bottom-header {
   width: 100%;
   padding: 10px 0;
@@ -581,6 +588,9 @@ header .bottom-header .header-map p {
   }
   header .top-header .top-header-child .top-header-child-r .header-category .header-category-btn {
     display: none;
+  }
+  header .top-header .top-header-child .header-menu {
+    display: flex;
   }
 }
 @media (max-width: 576px) {
