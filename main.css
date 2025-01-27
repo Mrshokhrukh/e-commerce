@@ -490,14 +490,361 @@ header .bottom-header .header-map p {
   grid-template-rows: auto;
 }
 
-.kalaska {
-  width: 60%;
-}
-
 .subtitle2 {
   display: none;
 }
 
+.order-card {
+  background: white;
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  margin-top: 20px;
+}
+
+h2 {
+  color: var(--text-color-1-sea);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.promo-section {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 1rem;
+}
+
+.promo-section input {
+  flex: 1;
+  padding: 6px 5px;
+  border: 1px solid #e2e8f0;
+  border-radius: 9999px;
+  font-size: 14px;
+  font-family: Montserrat;
+  color: var(--text-color-1-sea);
+}
+
+.promo-section input:focus {
+  outline: none;
+  border-color: #7cc3e6;
+  font-family: Montserrat;
+}
+
+.promo-section button {
+  padding: 6px 12px;
+  background-color: #7FC9F0;
+  color: white;
+  border: none;
+  border-radius: 9999px;
+  font-size: 10px;
+  font-family: Montserrat;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.promo-section button:hover {
+  background-color: #288dc0;
+}
+
+.order-details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.order-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #4a5568;
+  font-size: 16px;
+  font-family: Montserrat;
+}
+
+.divider {
+  height: 1px;
+  background-color: #e2e8f0;
+  margin: 0.5rem 0;
+}
+
+.total {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #2d3748;
+}
+
+.delivery-container {
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 10px;
+  font-family: Montserrat;
+}
+
+.delivery-card {
+  background: white;
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.delivery-section {
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+
+.delivery-section:last-child {
+  margin-bottom: 0;
+}
+
+.section-title {
+  color: var(--text-color-1-sea);
+  font-size: 16px;
+  margin-bottom: 22px;
+  font-weight: 500;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.input-label {
+  position: absolute;
+  top: 8px;
+  left: 12px;
+  font-size: 12px;
+  color: #718096;
+}
+
+.city-input {
+  width: 100%;
+  padding: 27px 12px 8px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #2d3748;
+  background-color: #fff;
+  font-family: Montserrat;
+}
+
+.delivery-option {
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 28px;
+  height: 130px;
+}
+
+.delivery-option:last-child {
+  margin-bottom: 0;
+}
+
+.option-header {
+  color: #2d3748;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.option-details {
+  color: #718096;
+  font-size: 14px;
+  line-height: 1.4;
+  margin-bottom: 27px;
+}
+
+.option-price {
+  color: #7FC9F0;
+  font-size: 12px;
+}
+.option-price:hover {
+  transform: scale(1 0.1);
+  color: #0992db;
+  cursor: pointer;
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+  .delivery-container {
+    max-width: 100%;
+  }
+  .delivery-card {
+    max-width: 450px;
+    margin: 0 auto;
+  }
+  .section-title {
+    font-size: 17px;
+  }
+  .option-header {
+    font-size: 15px;
+  }
+  .option-details {
+    font-size: 15px;
+  }
+  .option-price {
+    font-size: 13px;
+  }
+}
+.transport-container {
+  width: 100%;
+  max-width: 320px;
+  margin: 20px auto;
+  padding: 10px;
+  font-family: Montserrat;
+}
+
+.transport-card {
+  background: white;
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.section-title {
+  color: var(--text-color-1-sea);
+  font-size: 16px;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.company-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.company-btn {
+  padding: 8px 12px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background: white;
+  color: #4a5568;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: Montserrat;
+}
+.company-btn:hover {
+  background: #EDF2F7;
+  border-color: #7FC9F0;
+}
+
+.company-btn.active {
+  background: #EDF2F7;
+  border-color: #7FC9F0;
+}
+
+.delivery-cost {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.cost-label {
+  color: #4a5568;
+  font-size: 18px;
+}
+
+.cost-value {
+  color: #2d3748;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.pickup-section {
+  margin-bottom: 20px;
+}
+
+.pickup-link {
+  color: #7FC9F0;
+  font-size: 14px;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.pickup-address {
+  color: #7FC9F0;
+  font-size: 14px;
+}
+
+.recipient-form {
+  margin-top: 24px;
+}
+
+.form-title {
+  color: #2d3748;
+  font-size: 16px;
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+.input-group {
+  margin-bottom: 16px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #2d3748;
+  font-family: Montserrat;
+  margin-bottom: 4px;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #7cc3e6;
+  font-family: Montserrat;
+}
+
+.form-input::-moz-placeholder {
+  color: #A0AEC0;
+}
+
+.form-input::placeholder {
+  color: #A0AEC0;
+}
+
+.input-note {
+  color: #A0AEC0;
+  font-size: 12px;
+  line-height: 1.4;
+  margin: 10px 0 10px 0;
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+  .transport-container {
+    max-width: 100%;
+  }
+  .transport-card {
+    max-width: 450px;
+    margin: 0 auto;
+  }
+  .section-title,
+  .form-title {
+    font-size: 17px;
+  }
+  .company-btn {
+    font-size: 15px;
+  }
+  .cost-label,
+  .cost-value,
+  .pickup-link,
+  .pickup-address {
+    font-size: 15px;
+  }
+  .form-input {
+    font-size: 15px;
+    padding: 13px;
+  }
+  .input-note {
+    font-size: 13px;
+  }
+}
 @media (max-width: 1115px) {
   .main_section {
     display: grid;
@@ -517,9 +864,6 @@ header .bottom-header .header-map p {
   }
 }
 @media (max-width: 480px) {
-  .kalaska {
-    width: 20%;
-  }
   .card {
     padding: 15px 15px;
   }
@@ -566,9 +910,7 @@ header .bottom-header .header-map p {
     display: none;
   }
   .card {
-    width: 300px;
-  }
-  body {
-    background-color: #FFFFFF;
+    width: auto;
+    border: none;
   }
 }/*# sourceMappingURL=main.css.map */
