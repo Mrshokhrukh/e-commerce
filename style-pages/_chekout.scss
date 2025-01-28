@@ -166,7 +166,9 @@
   display: grid;
   grid-template-columns: repeat(3,1fr);
   grid-template-rows:auto;
-  
+  position: relative;
+  right:50px;
+  gap: 10px;
 }
 .subtitle2{
   display: none;
@@ -700,6 +702,7 @@ h2 {
     grid-template-columns: repeat(1,1fr);
     grid-template-rows: auto auto auto;
     gap: 12px;
+    right: 0;
   }
 }
 @media(max-width:480px){
