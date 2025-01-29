@@ -10,6 +10,7 @@ export function navigateTo(path) {
   history.pushState({}, "", path);
 
   loadPage(path);
+  
 }
 
 export function loadPage(path) {
@@ -27,7 +28,6 @@ window.onpopstate = () => {
   loadPage(location.pathname);
 };
 
-loadPage(location.pathname);
 
 document.addEventListener("DOMContentLoaded", () => {
   document.body.addEventListener("click", (e) => {
@@ -37,3 +37,8 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
+window.onpopstate = () => {
+  loadPage(location.pathname);
+};
+
