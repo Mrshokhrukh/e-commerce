@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -636,6 +637,7 @@ header .top-header .top-header-child .top-header-child-r .header-search input {
   height: 100%;
   background-color: var(--gray);
   border: none;
+  outline: none;
 }
 header .top-header .top-header-child .top-header-child-r .header-search .header-search-btn {
   flex: 0.5;
@@ -651,6 +653,9 @@ header .top-header .top-header-child .top-header-child-r .header-search .header-
 header .top-header .top-header-child .top-header-child-r .header-search .header-search-btn:hover {
   background-color: var(--text-color-3-withe);
   color: var(--btn-color-1-blue);
+}
+header .top-header .top-header-child .top-header-child-l .header-basket {
+  text-decoration: none;
 }
 header .top-header .top-header-child .top-header-child-l .header-cabinets {
   font-size: 18px;
@@ -702,14 +707,17 @@ header .bottom-header {
 header .bottom-header .bottom-text-header {
   font-size: 18px;
   color: var(--text-color-1-sea);
+  display: none;
 }
 header .bottom-header .header-a ul {
   gap: 20px;
+  padding: 20px 0;
 }
 header .bottom-header .header-a ul a {
   text-decoration: none;
   color: var(--text-color-2-blue);
   font-size: 18px;
+  white-space: nowrap;
 }
 header .bottom-header .header-map .bx {
   font-size: 30px;
@@ -721,6 +729,9 @@ header .bottom-header .header-map p {
 }
 
 @media (max-width: 1300px) {
+  header .top-header .top-header-child {
+    gap: 30px;
+  }
   header .bottom-header .header-a ul a {
     font-size: 15px;
   }
@@ -791,6 +802,12 @@ header .bottom-header .header-map p {
   .home-page .home-page-r h1 {
     font-size: 30px;
   }
+  header .top-header .top-header-child .top-header-child-r {
+    gap: 20px;
+  }
+  header .bottom-header {
+    gap: 20px;
+  }
 }
 @media (max-width: 768px) {
   header .top-header .top-header-child .header-menu {
@@ -815,7 +832,16 @@ header .bottom-header .header-map p {
   header .top-header .top-header-child .top-header-child-r .header-category .header-category-btn {
     display: none;
   }
+  header .top-header .top-header-child .top-header-child-l {
+    justify-content: center;
+  }
+  header .top-header .top-header-child .top-header-child-l .header-cabinets {
+    display: none;
+  }
   header .top-header .top-header-child .header-menu {
+    display: flex;
+  }
+  header .bottom-header .bottom-text-header {
     display: flex;
   }
 }
