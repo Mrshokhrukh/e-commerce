@@ -438,6 +438,9 @@ header .top-header .top-header-child .top-header-child-r .header-search .header-
   background-color: var(--text-color-3-withe);
   color: var(--btn-color-1-blue);
 }
+header .top-header .top-header-child .top-header-child-l .header-basket {
+  text-decoration: none;
+}
 header .top-header .top-header-child .top-header-child-l .header-cabinets {
   font-size: 18px;
   gap: 10px;
