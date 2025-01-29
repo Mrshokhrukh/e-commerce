@@ -7,12 +7,10 @@
     text-decoration: none;
 }
 .user-card {
-    // background-color: antiquewhite;
     max-width: 1400px;
     margin: 0 auto;
     font-family: 'Montserrat';
     .basket-products {
-        // border: 2px solid red;
         padding-top: 30px;
         .basket-products__title {
             color: #446B80;
@@ -21,7 +19,6 @@
             font-weight: 500;
         }
         .basket-products__content {
-            // background-color: lightblue;
             padding: 30px 0;
             display: flex;
             justify-content: space-between;
@@ -38,7 +35,6 @@
                     border-radius: 10px;
                 }
                 .product-card {
-                    // border: 1px solid green;
                     padding: 20px 0;
                     display: flex;
                     justify-content: space-between;
@@ -46,14 +42,12 @@
                     gap: 60px;
                     border-top: 1px solid #2235405a;
                     .card-left {
-                        // border: 1px solid yellow;
                         display: flex;
                         gap: 20px;
                         img {
                             width: 110px;
                         }
                         .product-description {
-                            // background-color: bisque;
                             width: 400px;
                             display: flex;
                             flex-direction: column;
@@ -70,7 +64,6 @@
 
                     }
                     .card-medium {
-                        // border: 1px solid red;
                         display: flex;
                         align-items: center;
                         gap: 25px;
@@ -92,7 +85,6 @@
                         }
                     }
                     .card-right {
-                        // border: 1px solid green;
                         display: flex;
                         flex-direction: column;
                         gap: 20px;
@@ -111,7 +103,6 @@
                 width: 300px;
                 position: relative;
                 .delivery {
-                    // border: 1px solid red;
                     padding: 5px 0;
                     p {
                         color: #446B80;
@@ -184,7 +175,6 @@
         }
     }
     .reccomendation-products {
-        // border: 2px dashed blue;
         padding-top: 80px;
         margin-bottom: 50px;
         .reccomendation-products__title {
@@ -194,7 +184,6 @@
             font-weight: 500;
         }
         .reccomendation-cards {
-            // border: 1px solid rebeccapurple;
             margin-top: 50px;
             padding: 20px;
             display: flex;
@@ -290,16 +279,13 @@
                 .product-cards {
                     height: 460px;
                     .product-card {
-                        // border: 1px solid green;
                         gap: 40px;
                         .card-left {
-                            // border: 1px solid yellow;
                             gap: 10px;
                             img {
                                 width: 110px;
                             }
                             .product-description {
-                                // background-color: bisque;
                                 width: 350px;
                                 display: flex;
                                 flex-direction: column;
@@ -316,7 +302,6 @@
     
                         }
                         .card-medium {
-                            // border: 1px solid red;
                             display: flex;
                             align-items: center;
                             gap: 25px;
@@ -338,7 +323,6 @@
                             }
                         }
                         .card-right {
-                            // border: 1px solid green;
                             display: flex;
                             flex-direction: column;
                             gap: 20px;
@@ -357,7 +341,6 @@
                     width: 300px;
                     position: relative;
                     .delivery {
-                        // border: 1px solid red;
                         padding: 5px 0;
                         p {
                             color: #446B80;
@@ -430,7 +413,6 @@
             }
         }
         .reccomendation-products {
-            // border: 2px dashed blue;
             padding-top: 80px;
             margin-bottom: 50px;
             .reccomendation-products__title {
@@ -440,7 +422,6 @@
                 font-weight: 500;
             }
             .reccomendation-cards {
-                // border: 1px solid rebeccapurple;
                 margin-top: 50px;
                 padding: 20px;
                 display: flex;
@@ -485,7 +466,6 @@
                         margin: 20px 0 10px 0;
                         padding: 10px 28px;
                         border-radius: 10px;
-                        // position: absolute;
                     }
                     .like-icon {
                         position: absolute;
@@ -536,17 +516,14 @@
                 .product-cards {
                     height: 460px;
                     .product-card {
-                        // border: 1px solid green;
                         width: 570px;
                         flex-wrap: wrap;
                         .card-left {
-                            // border: 1px solid yellow;
                             gap: 10px;
                             img {
                                 width: 110px;
                             }
                             .product-description {
-                                // background-color: rgb(198, 114, 13);
                                 width: 350px;
                                 display: flex;
                                 flex-direction: column;
@@ -563,7 +540,6 @@
     
                         }
                         .card-medium {
-                            // border: 1px solid red;
                             display: flex;
                             align-items: center;
                             gap: 25px;
@@ -585,7 +561,6 @@
                             }
                         }
                         .card-right {
-                            // border: 1px solid green;
                             display: flex;
                             flex-direction: column;
                             gap: 20px;
@@ -604,7 +579,6 @@
                     width: 300px;
                     position: relative;
                     .delivery {
-                        // border: 1px solid red;
                         padding: 5px 0;
                         p {
                             color: #446B80;
@@ -826,9 +800,6 @@
                         display: flex;
                         padding:10px 0;
                     }
-                    .all {
- 
-                    }
                     .buying-btn {
                         width: 85%;
                         height: 12%;
@@ -908,9 +879,6 @@
                     .promo-code {
                         display: flex;
                         padding:10px 0;
-                    }
-                    .all {
- 
                     }
                     .buying-btn {
                         width: 85%;
@@ -999,9 +967,6 @@
                 .promo-code {
                     display: flex;
                     padding:10px 0;
-                }
-                .all {
-
                 }
                 .buying-btn {
                     width: 85%;

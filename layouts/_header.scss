@@ -78,6 +78,12 @@ header {
                         gap: 5px;
                         padding: 0 10px;
                         cursor: pointer;
+                        border: 2px solid var(--btn-color-1-blue);
+                        transition: 0.3s ease;
+                        &:hover{
+                            background-color: var(--text-color-3-withe);
+                            color: var(--btn-color-1-blue);
+                        }
                         .bx {
                             font-size: 30px;
                         }
@@ -112,6 +118,12 @@ header {
                         background-color: var(--btn-color-1-blue);
                         color: var(--text-color-3-withe);
                         cursor: pointer;
+                        border: 2px solid var(--btn-color-1-blue);
+                        transition: 0.3s ease;
+                        &:hover{
+                            background-color: var(--text-color-3-withe);
+                            color: var(--btn-color-1-blue);
+                        }
                     }
                 }
             }
@@ -153,6 +165,13 @@ header {
                         font-size: 18px;
                         color: var(--text-color-1-sea);
                     }
+                }
+            }
+            .header-menu{
+                display: none;
+                .bx{
+                    font-size: 40px;
+                    color: var(--btn-color-1-blue);
                 }
             }
         }
@@ -369,6 +388,9 @@ header {
                             display: none;
                         }
                     }
+                }
+                .header-menu{
+                    display: flex;
                 }
             }
         }
