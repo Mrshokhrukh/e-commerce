@@ -3,7 +3,6 @@ import { getCart, saveCart } from "../utils/storage.js";
 export function addToCart(product) {
   let cart = JSON.parse(localStorage.getItem("cart")) || [];
   const existingItem = cart.find((item) => item.id === product.id);
-
   if (existingItem) {
     existingItem.quantity += 1;
   } else {
@@ -11,7 +10,6 @@ export function addToCart(product) {
   }
 
   localStorage.setItem("cart", JSON.stringify(cart));
-  alert(`${product.name} added to cart!`);
 }
 
 export function removeFromCart(productId) {

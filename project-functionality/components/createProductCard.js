@@ -1,6 +1,6 @@
 import { addToCart } from "./productActions.js";
 
-export function createProductCard(product) {
+export default function createProductCard(product) {
   const card = document.querySelector(".product-card");
 
   card.innerHTML = `
@@ -15,9 +15,13 @@ export function createProductCard(product) {
                 <p class="buy-click">Купить в один клик</p>
          </div>
         </div>
-        <a href="" class="buy-btn add-to-cart" onclick="addToCart(${product})">В корзину</a>
+        <a href="" class="buy-btn add-to-cart" onclick="click()">В корзину</a>
         <p class="buy-click">Купить в один клик</p>
     `;
 
   return card;
+}
+
+function click() {
+  console.log("hello");
 }

@@ -14,8 +14,7 @@ export function createCartItem(item) {
             <button class="increase"> + </button>
             <button class="decrease"> - </button>
             <button class="remove-item"> Remove </button>
-        </div>
-    `;
+        </div>`;
 
   cartItem.querySelector(".increase").addEventListener("click", (e) => {
     updateCartQuantity(item.id, "increase");

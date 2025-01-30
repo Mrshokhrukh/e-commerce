@@ -1,6 +1,6 @@
-const CART_STORAGE_KEY = "user-cart";
+const CART_STORAGE_KEY = "cart";
 
-export function getCart() {
+export function getCart() {  
   return JSON.parse(localStorage.getItem(CART_STORAGE_KEY)) || [];
 }
 

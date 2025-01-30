@@ -24,9 +24,6 @@ export function loadPage(path) {
     .catch((error) => console.error("Error loading page:", error));
 }
 
-window.onpopstate = () => {
-  loadPage(location.pathname);
-};
 
 
 document.addEventListener("DOMContentLoaded", () => {
