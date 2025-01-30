@@ -1,3 +1,4 @@
+import { loadCartPage } from "../pages/cart.js";
 import { getCart, saveCart } from "../utils/storage.js";
 
 export function addToCart(product) {
@@ -20,13 +21,17 @@ export function removeFromCart(productId) {
 export function updateCartQuantity(productId, action) {
   let cart = getCart();
   const product = cart.find((item) => item.id === productId);
+
   if (product) {
     switch (action) {
       case "increase":
         product.quantity++;
         break;
       case "decrease":
-        product.quantity--;
+        // product.quantity = Math.max(1, (product.quantity - 1));
+        if (product.quantity > 1) {
+          product.quantity--;
+        } else removeFromCart(productId);
         break;
     }
   }

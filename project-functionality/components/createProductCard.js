@@ -1,27 +1,27 @@
 import { addToCart } from "./productActions.js";
 
 export default function createProductCard(product) {
-  const card = document.querySelector(".product-card");
+  const card = document.createElement("div");
+  card.classList.add("product-card");
 
-  card.innerHTML = `
-        <div class="newitems-top">
+  card.innerHTML += `
+            <div class="product-card">
             <div class="newitems-top">
-                <img src="${product?.images[0]}" alt="404">
+                <img src="${product?.images[0]}" style="width:200px" alt="404">
             </div>
-         <div class="newitems-bottom">
-                <p class="name-item">Коляска Riko Basic, Польша</p>
-                <h1 class="price">52 000 <img src="../images/newitems-images/rubl.png" alt=""> </h1>
-                <a href="" class="buy-btn add-to-cart">В корзину</a>
+          <div class="newitems-bottom">
+                <p class="name-item">${product.title}</p>
+                <h1 class="price">${product.price}<img src="../images/newitems-images/rubl.png" alt=""> </h1>
+                <button class="buy-btn add-to-cart">В корзину</button>
                 <p class="buy-click">Купить в один клик</p>
-         </div>
-        </div>
-        <a href="" class="buy-btn add-to-cart" onclick="click()">В корзину</a>
-        <p class="buy-click">Купить в один клик</p>
-    `;
+          </div>
+          </div>
+`;
+
+  card.querySelector(".add-to-cart").addEventListener("click", (e) => {
+    e.preventDefault();
+    addToCart(product);
+  });
 
   return card;
-}
-
-function click() {
-  console.log("hello");
 }
