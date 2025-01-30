@@ -4,7 +4,7 @@ export default function createProductCard(product) {
   const card = document.createElement("div");
   card.classList.add("product-card");
 
-  card.innerHTML += `
+  card.innerHTML = `
             <div class="product-card">
             <div class="newitems-top">
                 <img src="${product?.images[0]}" style="width:200px" alt="404">

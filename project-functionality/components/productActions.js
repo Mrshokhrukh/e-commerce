@@ -1,4 +1,4 @@
-import { loadCartPage } from "../pages/cart.js";
+
 import { getCart, saveCart } from "../utils/storage.js";
 
 export function addToCart(product) {
@@ -31,7 +31,7 @@ export function updateCartQuantity(productId, action) {
         // product.quantity = Math.max(1, (product.quantity - 1));
         if (product.quantity > 1) {
           product.quantity--;
-        } else removeFromCart(productId);
+        }
         break;
     }
   }

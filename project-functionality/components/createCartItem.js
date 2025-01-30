@@ -5,7 +5,7 @@ export function createCartItem(item) {
   const cartItem = document.createElement("div");
   cartItem.classList.add("card-item");
 
-  cartItem.innerHTML += `
+  cartItem.innerHTML = `
             <div class="card-left">
                   <img src="${item.images[0]}" style="width:200px" alt="jpg">
                         <div class="product-description">
@@ -28,21 +28,19 @@ export function createCartItem(item) {
                             <button href="#" class="remove-icon removeFromCartItem"><i class='bx bx-trash-alt'></i></button>
                         </div>`;
 
-  cartItem
-    .querySelector(".removeFromCartItem")
-    .addEventListener("click", () => {
+  cartItem.querySelector(".removeFromCartItem").addEventListener("click", () => {
       removeFromCart(item.id);
-      // loadCartPage();
+      loadCartPage();
     });
 
   cartItem.querySelector(".increase").addEventListener("click", () => {
     updateCartQuantity(item.id, "increase");
-    // loadCartPage();
+    loadCartPage();
   });
 
   cartItem.querySelector(".decrease").addEventListener("click", (e) => {
     updateCartQuantity(item.id, "decrease");
-    // loadCartPage();
+    loadCartPage();
   });
 
   return cartItem;
