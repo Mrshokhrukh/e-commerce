@@ -1,32 +1,30 @@
+import { createCartItem } from "../components/createCartItem.js";
 import { getCart } from "../utils/storage.js";
 
 export function loadCartPage() {
-  const app = document.getElementById("cart");
-
-  app.innerHTML = `<h2>Your Shopping Cart</h2>`;
-
   const cart = getCart();
 
+  const app = document.querySelector(".cart");
+  const cartContainer = document.querySelector(".product-cards-container");
+  const cartTitleQty = document.querySelector('.basket-products__title');
+
   if (cart.length === 0) {
-    app.innerHTML += `<p>Your cart is empty.</p>`;
+    app.innerHTML = `<p style="text-align:center; font-size:55px ">Your cart is empty.</p>`;
     return;
   }
 
-  const cartContainer = document.createElement("div");
-  cartContainer.classList.add("");
-
+  cartContainer.innerHTML = "";
+  
   cart.forEach((item) => {
     const cartItemElement = createCartItem(item);
     cartContainer.appendChild(cartItemElement);
   });
 
-  app.appendChild(cartContainer);
-
   const totalPrice = cart.reduce(
     (total, item) => total + item.price * item.quantity,
     0
   );
-  const totalElement = document.createElement("h3");
-  totalElement.textContent = `Total: $${totalPrice.toFixed(2)}`;
-  app.appendChild(totalElement);
+  const totalElement = document.getElementById("totalPrice");
+  totalElement.textContent = `$${totalPrice.toFixed(2)}`;
+  cartTitleQty.textContent = `В корзине ${cart.length} товара`;
 }

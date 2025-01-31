@@ -4,3 +4,81 @@
     height: auto;
     
 }
+
+.home-page {
+    margin: 10px auto;
+    width: 90%;
+    max-width: 1400px;
+    height: auto;
+    font-family: Montserrat;
+    background-color: var;
+
+    .home-page-r {
+        flex: 1;
+        gap: 20px;
+        h1 {
+            font-size: 70px;
+        }
+        p {
+            font-size: 18px;
+        }
+        .home-bt {
+            width: 139px;
+            height: 48px;
+            gap: 0px;
+            border-radius: 12px;
+            border: none;
+            background-color: var(--text-color-2-blue);
+            color: white;
+            position: relative;
+            overflow: hidden;
+            z-index: 10;
+            border: 2px solid var(--text-color-2-blue);
+            cursor: pointer;
+            h1{
+                position: relative;
+                z-index: 10;
+                font-size: 18px;
+            }
+            &:hover{
+                color: var(--text-color-2-blue);
+            }
+
+        }
+
+        .home-bt::after{
+            content: "";
+            top: 0;
+            left: 0;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: white;
+            z-index: 1;
+            transform: translatex(100%);
+            transition: 0.3s ease;
+            border-radius: 50px;
+        }
+
+        .home-bt:hover::after{
+            transform: translatex(-10%);
+        }
+
+    }
+
+    .home-page-l{
+        flex: 1;
+        position: relative;
+        img:nth-child(1){
+            border-radius: 40% 50% 60% 10%;
+            position: relative;
+            z-index: 2;
+            height: 500px;
+        }
+        img:nth-child(2){
+            position: absolute;
+            object-fit: cover;
+            height: 500px;
+        }
+    }
+}

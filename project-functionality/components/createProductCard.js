@@ -1,35 +1,27 @@
 import { addToCart } from "./productActions.js";
 
-export function createProductCard(product) {
+export default function createProductCard(product) {
   const card = document.createElement("div");
-
   card.classList.add("product-card");
 
   card.innerHTML = `
-<<<<<<< HEAD
-     <div class="product-card">
+            <div class="product-card">
             <div class="newitems-top">
-                <img src="${""}" alt="404">
-=======
-            <div class="newitems-top">
-                <img src="../../images/newitems-images/kalyaska.png" alt="404">
->>>>>>> d74eaa294850c2379a2fea1b50ff71fcef89d01b
+                <img src="${product?.images[0]}" style="width:200px" alt="404">
             </div>
-            <div class="newitems-bottom">
-                <p class="name-item">Коляска Riko Basic, Польша</p>
-                <h1 class="price">52 000 <img src="../images/newitems-images/rubl.png" alt=""> </h1>
-<<<<<<< HEAD
-                <a href="" class="buy-btn add-to-cart">В корзину</a>
+          <div class="newitems-bottom">
+                <p class="name-item">${product.title}</p>
+                <h1 class="price">${product.price}<img src="../images/newitems-images/rubl.png" alt=""> </h1>
+                <button class="buy-btn add-to-cart">В корзину</button>
                 <p class="buy-click">Купить в один клик</p>
-            </div>
-        </div>
-=======
-                <a href="" class="buy-btn add-to-cart" onclick="addToCart(${product})">В корзину</a>
-                <p class="buy-click">Купить в один клик</p>
-            </div>
->>>>>>> d74eaa294850c2379a2fea1b50ff71fcef89d01b
-    `;
+          </div>
+          </div>
+`;
+
+  card.querySelector(".add-to-cart").addEventListener("click", (e) => {
+    e.preventDefault();
+    addToCart(product);
+  });
+
   return card;
 }
-
-

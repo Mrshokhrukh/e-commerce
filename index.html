@@ -43,10 +43,17 @@
               <i class="bx bx-user"></i>
               <p>Войти в личный кабинет</p>
             </div>
-            <div class="header-basket placer-1">
-              <i class="bx bx-basket"></i><span class="placer-1">0</span>
+            <a
+              href="./pages/user-card.html"
+              style="text-decoration: 'none'"
+              class="header-basket placer-1"
+            >
+              <i class="bx bx-basket"></i><span class="placer-1 cart-quant">0</span>
               <p>Корзина</p>
-            </div>
+            </a>
+          </div>
+          <div class="header-menu">
+            <i class="bx bx-menu"></i>
           </div>
         </div>
       </div>
@@ -76,14 +83,14 @@
     </header>
 
     <div class="home-page placer-2">
-      <div class="home-page-r">
+      <div class="home-page-r placer-3">
         <h1>Все самое необходимое для вашего ребенка</h1>
         <p>Посмотрите нашу новую подборку для ухода за вашим ребенком</p>
-        <button>Смотреть</button>
+        <button class="home-bt"><h1>Смотреть</h1></button>
       </div>
-      <div class="home-page-l">
+      <div class="home-page-l placer-1">
         <img
-          src="images/header-img/a3089979-bbcc-4aac-be8c-726d09cede96 1.png"
+          src="images/header-img/jonathan-borba-RWgE9_lKj_Y-unsplash 1.png"
           alt=""
         />
       </div>
@@ -127,68 +134,8 @@
     <section class="newitems">
       <h1 class="title">Новинки</h1>
 
-      <div class="products-container">
-
-        <div class="product-card">
-
-        <div class="product-card">
-          <div class="newitems-top">
-            <img src="../images/newitems-images/kalyaska.png" alt="" />
-          </div>
-          <div class="newitems-bottom">
-            <p class="name-item">Коляска Riko Basic, Польша</p>
-            <h1 class="price">
-              52 000 <img src="../images/newitems-images/rubl.png" alt="" />
-            </h1>
-            <a href="" class="buy-btn">В корзину</a>
-            <p class="buy-click">Купить в один клик</p>
-          </div>
-        </div>
-        <div class="product-card">
-          <div class="newitems-top">
-            <img src="../images/newitems-images/kalyaska.png" alt="" />
-          </div>
-          <div class="newitems-bottom">
-            <p class="name-item">Коляска Riko Basic, Польша</p>
-            <h1 class="price">
-              52 000 <img src="../images/newitems-images/rubl.png" alt="" />
-            </h1>
-            <a href="" class="buy-btn">В корзину</a>
-            <p class="buy-click">Купить в один клик</p>
-          </div>
-        </div>
-        <div class="product-card">
-          <div class="newitems-top">
-            <img src="../images/newitems-images/kalyaska.png" alt="" />
-          </div>
-          <div class="newitems-bottom">
-            <p class="name-item">Коляска Riko Basic, Польша</p>
-            <h1 class="price">
-              52 000 <img src="../images/newitems-images/rubl.png" alt="" />
-            </h1>
-            <a href="" class="buy-btn">В корзину</a>
-            <p class="buy-click">Купить в один клик</p>
-          </div>
-        </div>
-        <div class="product-card">
-          <div class="newitems-top">
-            <img src="../images/newitems-images/kalyaska.png" alt="" />
-          </div>
-          <div class="newitems-bottom">
-            <p class="name-item">Коляска Riko Basic, Польша</p>
-            <h1 class="price">
-              52 000 <img src="../images/newitems-images/rubl.png" alt="" />
-            </h1>
-            <a href="" class="buy-btn">В корзину</a>
-            <p class="buy-click">Купить в один клик</p>
-          </div>
-        </div>
-
-        </div> 
-    
+      <div class="products-container renderProducts">
         <!-- Javascript renders fetched products  -->
-
-        
       </div>
     </section>
   </body>

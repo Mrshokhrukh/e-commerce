@@ -1,12 +1,8 @@
-import { createProductCard } from "../components/createProductCard.js";
+import createProductCard from "../components/createProductCard.js";
 import { fetchProducts } from "../services/api.js";
 
 export const renderProducts = async function () {
-  const productContainer = document.querySelector(".products-container");
-<<<<<<< HEAD
-  console.log(productContainer);
-=======
->>>>>>> d74eaa294850c2379a2fea1b50ff71fcef89d01b
+  const productContainer = document.querySelector(".renderProducts");
 
   try {
     const { products } = await fetchProducts();
@@ -16,15 +12,13 @@ export const renderProducts = async function () {
       return;
     }
 
-    products.slice(0, 10).forEach((product) => {
+    products?.forEach((product) => {
       const productCard = createProductCard(product);
       productContainer.appendChild(productCard);
-<<<<<<< HEAD
-=======
-      
->>>>>>> d74eaa294850c2379a2fea1b50ff71fcef89d01b
     });
   } catch (error) {
-    productContainer.innerHTML = `<p>Failed to load products. Please try again later.</p>`;
+    if (productContainer) {
+      productContainer.innerHTML = `<p>Failed to load products. Please try again later.</p>`;
+    }
   }
 };
