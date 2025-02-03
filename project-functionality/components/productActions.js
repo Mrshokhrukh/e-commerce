@@ -1,4 +1,4 @@
-
+import { loadCartPage } from "../pages/cart.js";
 import { getCart, saveCart } from "../utils/storage.js";
 
 export function addToCart(product) {
@@ -11,6 +11,7 @@ export function addToCart(product) {
   }
 
   localStorage.setItem("cart", JSON.stringify(cart));
+  loadCartPage();
 }
 
 export function removeFromCart(productId) {

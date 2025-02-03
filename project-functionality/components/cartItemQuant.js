@@ -1,5 +1,8 @@
-import { getCart } from "../utils/storage";
+import { getCart } from "../utils/storage.js";
 
 export function updateCartQty() {
-  document.querySelector(".cart-quant").textContent = getCart().length;
+  let cart = getCart();
+  console.log(document.querySelector(".cart-quant"));
+
+  document.querySelector(".cart-quant").textContent = cart.length;
 }

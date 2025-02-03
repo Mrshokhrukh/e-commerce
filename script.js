@@ -11,5 +11,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
   renderProducts();
   loadCartPage();
-  updateCartQty()
+  updateCartQty();
 });

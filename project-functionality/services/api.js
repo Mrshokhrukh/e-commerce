@@ -11,7 +11,6 @@ export async function fetchProducts() {
     const products = await response.json();
 
     return products;
-    
   } catch (error) {
     console.error("Failed to fetch products:", error);
     throw error;

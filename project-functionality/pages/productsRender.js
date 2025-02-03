@@ -6,7 +6,7 @@ export const renderProducts = async function () {
 
   try {
     const { products } = await fetchProducts();
-
+     
     if (products.length === 0) {
       productContainer.innerHTML = `<p>No products available.</p>`;
       return;

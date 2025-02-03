@@ -10,7 +10,6 @@ export function navigateTo(path) {
   history.pushState({}, "", path);
 
   loadPage(path);
-  
 }
 
 export function loadPage(path) {
@@ -24,8 +23,6 @@ export function loadPage(path) {
     .catch((error) => console.error("Error loading page:", error));
 }
 
-
-
 document.addEventListener("DOMContentLoaded", () => {
   document.body.addEventListener("click", (e) => {
     if (e.target.matches("[data-link]")) {
@@ -38,4 +35,3 @@ document.addEventListener("DOMContentLoaded", () => {
 window.onpopstate = () => {
   loadPage(location.pathname);
 };
-
